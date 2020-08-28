@@ -1,0 +1,3 @@
+# Exercício 10
+cp countries.txt bunch_of_things.txt
+cat phrases2.txt >> bunch_of_things.txt
