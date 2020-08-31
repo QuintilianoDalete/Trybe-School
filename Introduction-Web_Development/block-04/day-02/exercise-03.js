@@ -8,6 +8,6 @@ for (let i = 0; i < numbers.length; i += 1) {
     sum = sum + numbers[i];
 }
 
-let mean = sum / (numbers.length)
+let mean = sum / (numbers.length);
 
 console.log(mean);
