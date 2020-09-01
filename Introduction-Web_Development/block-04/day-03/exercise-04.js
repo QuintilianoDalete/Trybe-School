@@ -1,4 +1,4 @@
-// Piramid
+// Pyramid
 
 let n = 5;
 
