@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Form</title>
+</head>
+<body onload="stateslist()">
+  <form action="" method="">
+    <fieldset id="personal-information">
+      <label for="name">Name:</label>
+      <input id="name" name="name" required="required" placeholder="Write your name" type="text" maxlength="40"></br>
+      <label for="email">Email</label>
+      <input id="email" name="email" required="required" placeholder="email@email.com" type="email"></br>
+      <label for="cpf">CPF</label>
+      <input id="cpf" name="cpf" required="required" placeholder="Write your CPF" type="number" maxlength="11"></br>
+      <label for="address">Address</label>
+      <input id="address" name="address" required="required" placeholder="Write your address" type="text" maxlength="200"></br>
+      <label for="city">City</label>
+      <input id="city" name="city" required="required" placeholder="Write your city" type="text" maxlength="28"></br>
+
+      <label for="states">State</label>
+      <select id="states" name="states" required="required"></select>
+
+      <p>Select your home type:</p>
+      <label required="required" for="home1"><input name="home" id="home1" value="house" type="radio">House</label>
+      <label required="required" for="home2"><input name="home" id="home2" value="apartment" type="radio">Apartment</label>
+    </fieldset>
+    <fieldset>
+      <label for="resume">Curriculum Summary</label>
+      <textarea id="resume" name="resume" required="required" placeholder="Write your curriculum summary" maxlength="1000"></textarea></br>
+      <label for="position">Position</label>
+      <input id="position" name="position" required="required" placeholder="Write your position" maxlength="40"></br>
+      <label for="positionDescription">Position Description</label>
+      <textarea id="posDesc" name="posDesc" required="required" placeholder="Write your position description" maxlength="500"></textarea></br>
+      <label for="startDate">Start Date</label>
+      <input id="startdate" name="startDate" required="required" type="date"></br>
+    </fieldset>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
