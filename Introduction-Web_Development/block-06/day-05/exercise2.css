@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+p {
+  font-size: xx-large;
+}
+
+body {
+  margin: 10px;
+}
+
+li {
+  font-size: x-large;  
+}
+
+nav {
+  display: none;  
+}
+
+p .title {
+  font-weight: 900;  
+}
+
+@media (min-width: 700px) and (max-width: 950px) {
+  nav {
+    display: block;  
+  }
+
+  .title {
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-size: 33px;  
+  }
+
+  h3 {
+    font-size: 30px;  
+  }
+}
