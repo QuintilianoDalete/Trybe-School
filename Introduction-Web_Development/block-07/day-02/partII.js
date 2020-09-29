@@ -73,5 +73,3 @@ const existenceVerification = (obj, key, value) => {
   return result;
 };
 console.log(existenceVerification(lesson2, 'materia', 'História'));
-
-
