@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+
+      let title = document.getElementById("page-title");
+      title.innerText = "New title!";
+
+      let secondParagraph = document.getElementById("second-paragraph");
+      secondParagraph.innerText = "I`m going each time deeper in computer programing. Thanks Dady!!!"
+      secondParagraph.style.color = "blue";
+      secondParagraph.style.fontWeight = "bolder";
+
+      let subtitle = document.getElementById("subtitle");
+      subtitle.innerText = "Dady please help me in this challenging times";
+      subtitle.style.color = "green";
+
+      let paragraphs = document.getElementsByTagName("p");
+      for (let i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].classList.add("paragraphs");
+      }
+      
+      let paragraphsClass = document.getElementsByClassName("paragraphs");
+      paragraphsClass[0].innerText = "Testing the method classList.add";      
+
+    </script>
+  </body>
+</html>
