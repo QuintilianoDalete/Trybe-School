@@ -4,8 +4,8 @@ This repository contains all learning activities developed by Quintiliano Dalete
 
 The program has more than 1,500 hours of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
-Introduction - Web Development white_check_mark
-Block 1: Introduction - Unix & Shell
+### Introduction - Web Development.
+## Block 1: Introduction - Unix & Shell
  1-3: Unix & Bash - Part 1
  1-4: Unix & Bash - Part 2
  1-5: Shell Script
