@@ -95,7 +95,17 @@
 
  /* 
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+*/
+
+      function pOnConsole() {
+        let tagP = document.getElementsByTagName("p");
+        for (let i = 0; i < tagP.length; i++) {
+          console.log(tagP[i].innerHTML);
+        }
+      }
+
+      pOnConsole();
+
     </script>
   </body>
 </html>
