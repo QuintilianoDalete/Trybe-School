@@ -32,7 +32,7 @@
   <body>
     <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
     <div class="main-content">
-      <div class="center-content">
+      <div class="center-content" id="center-content">
         <p>Texto padrão do nosso site</p>
         <p>-----</p>
         <p>Trybe</p>
@@ -56,15 +56,24 @@
  /*
  Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).*/
 
-      function changingColor() {
+      function changingColorMainContet() {
         let smallRectangles = document.getElementsByClassName("main-content");
         smallRectangles[0].style.backgroundColor = "rgb(76,164,109)";
       }
 
-      changingColor();
+      changingColorMainContet();
 
 /*
- Crie uma função que mude a cor do quadrado vermelho para branco.
+ Crie uma função que mude a cor do quadrado vermelho para branco.*/
+
+      function changingColorCenterContet() {
+        let mainContent = document.getElementsByClassName("center-content")[0];
+        mainContent.style.background = "white";
+      }
+
+      changingColorCenterContet();
+
+ /*
  Crie uma função que corrija o texto da tag <h1>.
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
