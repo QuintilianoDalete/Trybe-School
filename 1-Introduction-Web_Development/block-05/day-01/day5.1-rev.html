@@ -33,7 +33,7 @@
     <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
     <div class="main-content">
       <div class="center-content" id="center-content">
-        <p>Texto padrão do nosso site</p>
+        <p id="toUpper">Texto padrão do nosso site</p>
         <p>-----</p>
         <p>Trybe</p>
       </div>
@@ -84,7 +84,16 @@
       correctingHTag();
 
  /* 
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ Crie uma função que modifique todo o texto da tag <p> para maiúsculo.*/
+
+      function capitalizing() {
+        let tagP = document.getElementById("toUpper");
+        tagP.innerHTML = tagP.innerHTML.toLocaleUpperCase();
+      }
+
+      capitalizing();
+
+ /* 
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
     </script>
