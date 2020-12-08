@@ -1,3 +1,5 @@
+// Defining an action creator
+
 const action = {
   type: 'LOGIN'
 }
