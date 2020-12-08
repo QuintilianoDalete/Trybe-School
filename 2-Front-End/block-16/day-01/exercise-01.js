@@ -1,4 +1,4 @@
-// Defining an action creator
+// Defining an action creator: https://www.freecodecamp.org/learn/front-end-libraries/redux/define-an-action-creator
 
 const action = {
   type: 'LOGIN'

@@ -1,4 +1,4 @@
-// Creating a Redux store
+// Creating a Redux store: https://www.freecodecamp.org/learn/front-end-libraries/redux/create-a-redux-store
 
 const reducer = (state = 5) => {
   return state;
