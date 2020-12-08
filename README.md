@@ -85,3 +85,8 @@ The program has more than **1,500 hours** of classroom and online classes and co
 ##### Block 14: Agile Methodologies
 - [x] 14-1: *Agile Methodologies: Scrum, Kanban*
 - [x] 14-2: *Group Project - Frontend Online Store*
+
+##### Block 15: React Testing Library
+- [x] 15-1: *Testing React with the React Testing Library: testing use and routes*
+- [x] 15-2: *RTL Part 2: testing mocking and inputs*
+- [x] 15-3: *Project - React Tests*
