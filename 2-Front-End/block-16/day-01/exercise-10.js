@@ -13,7 +13,7 @@ const todos = [
 const immutableReducer = (state = todos, action) => {
   switch(action.type) {
     case ADD_TO_DO:
-      // Line changed bellow this line
+      // Line changed bellow this one
       return state.concat(action.todo);
     default:
       return state;
