@@ -3,7 +3,7 @@
 const immutableReducer = (state = ['Do not mutate state!'], action) => {
   switch(action.type) {
     case 'ADD_TO_DO':
-      // // Line changed bellow this one
+      // Line changed bellow this one
       let array = [...state, action.todo]
       return array;
     default:
