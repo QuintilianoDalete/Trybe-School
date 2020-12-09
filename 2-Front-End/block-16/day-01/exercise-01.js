@@ -1,0 +1,10 @@
+// Defining an action creator: https://www.freecodecamp.org/learn/front-end-libraries/redux/define-an-action-creator
+
+const action = {
+  type: 'LOGIN'
+}
+// Define an action creator here:
+
+function actionCreator(action) {
+  return action
+}
