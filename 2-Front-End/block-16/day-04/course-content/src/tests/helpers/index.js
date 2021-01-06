@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { render }from '@testing-library/react';
 import thunk from 'redux-thunk';
 import reducer from '../../reducers';
-import { applyMiddleware, combineReducers } from 'redux';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
 
 const createMockStore = (initialState) => (
   createStore(combineReducers({ reducer }), initialState, applyMiddleware(thunk))
